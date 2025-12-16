@@ -111,14 +111,14 @@ body {
 }
 
 .nav {
-    display: flex; /* Changed from none to flex for desktop visibility */
+    display: flex; 
     justify-content: space-around; 
     margin-top: 20px;
     padding: 10px 0;
 }
 
 .menu-icon {
-    display: none; /* Remains hidden on desktop */
+    display: none; 
 }
 
 .nav a {
@@ -127,7 +127,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    /* border-left: 2px solid #555; */ /* Removed as per user request */
     padding: 0 5px;
     text-align: center;
     flex-grow: 1;
@@ -196,7 +195,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin: 0;
     line-height: 1.1;
     font-weight: 700;
@@ -256,8 +255,6 @@ body {
     cursor: pointer;
 }
 
-/* .stat-item:hover span {
-} */
 
 .stat-item p {
     font-size: 20px;
@@ -283,7 +280,7 @@ body {
 .countdown {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 40px;
     padding: 20px 90px;
 }
@@ -298,13 +295,12 @@ body {
     min-width: 0;
 }
 
-/* add vertical separator only between adjacent time blocks (no outer borders) */
 .countdown > div:not(.countdown-actions) + div:not(.countdown-actions) {
     border-left: 4px solid #ccc;
 }
 
 .countdown span {
-    font-size: 88px;
+    font-size: 70px;
     font-weight: 800;
     color: #0171B9;
     display: inline-block;
@@ -321,12 +317,12 @@ body {
     font-size: 24px;
     margin: 8px 0 0 0;
     color: #333;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .event-date-container p {
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 500;
     color: #111;
     margin: 0 0 12px 0; 
 
@@ -341,9 +337,8 @@ body {
 .event-buttons button {
     color: #fff;
     border: none;
-    padding: 12px 48px; /* Increased horizontal padding */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 24px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     position: relative;
     border-radius: 10px;
@@ -355,10 +350,12 @@ body {
 }
 
 .register-btn {
+     padding: 14px 48px;
     background-color: #0171B9;
 }
 
 .partnership-btn {
+    padding: 10px 84px;
     background-color: #000;
 }
 
@@ -769,7 +766,7 @@ body {
     object-fit: contain;
     width: 80%;
     height: 80%;
-    padding: 15px; /* Increased padding */
+    padding: 15px; 
 }
 
 .calendar-clock-icon {
@@ -778,37 +775,7 @@ body {
     height: 70px;
 }
 
-.calendar-icon-base {
-    width: 55px;
-    height: 65px;
-    border: 2.5px solid #fff;
-    border-radius: 3px;
-    position: relative;
-    background: #0171B9;
-}
 
-.calendar-icon-base::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: 3px;
-    right: 3px;
-    height: 10px;
-    border-bottom: 2px solid #fff;
-}
-
-.calendar-icon-base::after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    background-image: 
-        radial-gradient(circle, #fff 1.5px, transparent 1.5px);
-    background-size: 7px 7px;
-    background-position: 0 0;
-}
 
 .clock-icon-overlay {
     position: absolute;
@@ -840,7 +807,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 60px;
+    padding: 50px ;
     height: 100%;
 }
 
@@ -992,7 +959,7 @@ body {
     }
 
     .hero-content h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .countdown-section {
@@ -1178,13 +1145,10 @@ body {
     }
 
     .events-intro-content {
-        padding: 15px 20px;
-        width: auto;
-        flex: 1;
+        padding: 10px 15px;
         height: 100%;
-        flex-direction: column;
-        justify-content: center;
         align-items: flex-start;
+        flex: 1;
     }
 
     .events-schedule-title {
@@ -1386,7 +1350,7 @@ body {
     }
 
     .hero-content h1 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.3;
     }
 
@@ -1680,7 +1644,7 @@ body {
     }
 
     .hero-content h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .countdown span {
