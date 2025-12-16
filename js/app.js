@@ -135,12 +135,11 @@ const EventsIntro = () => {
             <div className="events-intro-red-square">
                 <img src="images/Asset 41.png" alt="Events Calendar Icon" className="events-intro-icon-image" />
             </div>
-            <div className="events-intro-content">
-                <h2 className="events-schedule-title">
-                    <span className="events-line-small">• The Global Leaders Week in Dubai</span>
-                    <span className="events-line-big">EVENTS SCHEDULE</span>
-                </h2>
-            </div>
+           <div className="events-intro-content">
+             <h2 className="events-schedule-title">
+             • The Global Aviation Industry Week in Dubai<br/>EVENTS SCHEDULE
+             </h2>            
+             </div>
             <div className="events-intro-right-bar"></div>
         </div>
     );
